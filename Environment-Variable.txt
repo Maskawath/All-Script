@@ -1,0 +1,39 @@
+Environment Variable
+====================
+
+printenv
+export MYVARIABLE=2
+printenv MYVARIABLE
+
+Make the variable persistent
+============================
+
+vim .bashrc
+
+export DOESITWORK="Working"
+
+Save and Exit
+
+source .bashrc
+
+printenv DOESITWORK
+
+Global Environtment Variable
+============================
+
+vim /etc/environment
+
+export GLOBAL="TEST"
+
+Save and Exit
+
+source environment
+
+printenv GLOBAL
+
+Unset the ENV Variable
+======================
+unset VARIABLE_NAME
+
+
+
